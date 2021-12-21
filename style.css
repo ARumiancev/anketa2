@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("fonas.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+form {
+    height: 400px;
+    max-width: 550px;
+    background: lightgrey;
+    text-align: left;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+form input,
+form label {
+    display: block;
+    width: 90%;
+}
+
+form label {
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+form input {
+    background: lightgrey;
+    border-style: none none groove none;
+}
+
+form input:nth-of-type(4) {
+    padding: 15px;
+    resize: both;
+    overflow: auto;
+}
+
+form button {
+    text-align: center;
+    margin-top: 20px;
+    width: 160px;
+    height: 36px;
+    border: none;
+    background: #333333 ;
+    color: white;
+}
+
+#pateikta img {
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    border-radius: 40%;
+
+}
+
+#pateikta button {
+    display: block;
+    margin: 40px auto;
+}
